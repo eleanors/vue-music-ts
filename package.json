@@ -1,48 +1,51 @@
 {
-    "name": "vue-music-ts",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build"
-    },
-    "dependencies": {
-        "amfe-flexible": "^2.2.1",
-        "cube-ui": "~1.10.13",
-        "vue": "^2.5.17",
-        "vue-class-component": "^6.0.0",
-        "vue-property-decorator": "^7.0.0",
-        "vue-router": "^3.0.1",
-        "vuex": "^3.0.1"
-    },
-    "devDependencies": {
-        "@vue/cli-plugin-babel": "^3.0.4",
-        "@vue/cli-plugin-typescript": "^3.0.4",
-        "@vue/cli-service": "^3.0.4",
-        "babel-plugin-component": "^1.1.1",
-        "axios": "^0.18.0",
-        "node-sass": "^4.9.0",
-        "postcss-px2rem": "^0.3.0",
-        "sass-loader": "^7.0.1",
-        "stylus": "^0.54.5",
-        "stylus-loader": "^3.0.2",
-        "typescript": "^3.0.0",
-        "vue-cli-plugin-axios-ts": "^1.0.2",
-        "vue-cli-plugin-cube-ui": "^0.1.5",
-        "vue-cli-plugin-ts-paths": "0.0.4",
-        "vue-cli-plugin-vw-layout": "^0.1.0",
-        "vue-template-compiler": "^2.5.17"
-    },
-    "transformModules": {
-        "cube-ui": {
-            "transform": "cube-ui/lib/${member}",
-            "kebabCase": true,
-            "style": {
-                "ignore": [
-                    "create-api",
-                    "better-scroll"
-                ]
-            }
-        }
+  "name": "vue-music-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "cube-ui": "~1.10.13",
+    "rxjs": "^6.3.3",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vue-rx": "^6.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-typescript": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "axios": "^0.18.0",
+    "babel-plugin-component": "^1.1.1",
+    "node-sass": "^4.9.0",
+    "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^7.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "typescript": "^3.0.0",
+    "vue-cli-plugin-axios-ts": "^1.0.2",
+    "vue-cli-plugin-cube-ui": "^0.1.5",
+    "vue-cli-plugin-rx": "^0.1.5",
+    "vue-cli-plugin-ts-paths": "0.0.4",
+    "vue-cli-plugin-vw-layout": "^0.1.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "transformModules": {
+    "cube-ui": {
+      "transform": "cube-ui/lib/${member}",
+      "kebabCase": true,
+      "style": {
+        "ignore": [
+          "create-api",
+          "better-scroll"
+        ]
+      }
     }
+  }
 }
